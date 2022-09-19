@@ -1,0 +1,12 @@
+{
+  "name": "GrecoStorefront",
+  "version": "1.0.0",
+  "description": "CustomeTheme",
+  "main": "index.js",
+  "author": "VietSwiss",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "vue": "^3.2.37"
+  }
+}

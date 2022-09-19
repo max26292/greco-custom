@@ -1,0 +1,19 @@
+{
+  "name": "greco/theme-custom",
+  "description": "Greco Custom Theme plugin",
+  "type": "shopware-platform-plugin",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "GrecoCustomTheme\\": "src/"
+    }
+  },
+  "version": "1.0",
+  "extra": {
+    "shopware-plugin-class": "GrecoCustomTheme\\GrecoCustomTheme",
+    "label": {
+      "de-DE": "Theme GrecoCustomTheme plugin",
+      "en-GB": "Theme GrecoCustomTheme plugin"
+    }
+  }
+}

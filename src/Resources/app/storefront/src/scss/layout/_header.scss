@@ -1,0 +1,19 @@
+// @import '../abstract/variables';
+
+.header-logo-main {
+  display: inline-block;
+}
+
+@include media-breakpoint-up(lg) {
+
+  .header-main {
+    background-color: transparent;
+    transition: all 0.5s ease;
+    position: fixed;
+    z-index: 1000;
+    width: 100%;
+    top: 0;
+    left: 0;
+  }
+
+}

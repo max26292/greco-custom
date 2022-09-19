@@ -1,0 +1,31 @@
+{
+  "name": "GrecoCustomTheme",
+  "author": "Shopware AG",
+  "previewMedia": "app/storefront/dist/assets/DewaThemePreview.jpg",
+  "views": [
+     "@Storefront",
+     "@Plugins",
+     "@AppflixDewaShop",
+     "@GrecoCustomTheme"
+  ],
+  "style": [
+    "app/storefront/src/scss/overrides.scss",
+    "@Storefront",
+    "@AppflixDewaShop",
+    "app/storefront/src/scss/base.scss"
+  ],
+  "script": [
+    "@Storefront",
+    "@AppflixDewaShop",
+    "app/storefront/dist/storefront/js/greco-custom-theme.js"
+  ],
+  "asset": [
+    "@Storefront",
+    "@AppflixDewaShop",
+    "app/storefront/src/assets"
+  ],
+  "configInheritance": [
+    "@Storefront",
+    "@AppflixDewaShop"
+  ]
+}
